@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Student {
 
-    private String fisrtname;
+    private String firstname;
 
     private String lastname;
 
@@ -15,13 +15,13 @@ public class Student {
     private int age;
 
 
-    public Student(String fisrtname,
+    public Student(String firstname,
                    String lastname,
                    LocalDate dateOfBirth,
                    String email,
                    int age)
     {
-        this.fisrtname = fisrtname;
+        this.firstname = firstname;
         this.lastname = lastname;
         this.dateOfBirth = dateOfBirth;
         this.email = email;
@@ -35,12 +35,12 @@ public class Student {
 
 
 
-    public String getFisrtname() {
-        return fisrtname;
+    public String getFirstname() {
+        return firstname;
     }
 
-    public void setFisrtname(String fisrtname) {
-        this.fisrtname = fisrtname;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
     public String getLastname() {
